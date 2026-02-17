@@ -1,0 +1,64 @@
+ ---
+ ---
+ 
+ 
+ <section class="destacados container">
+                <h2 class="destacados__titulo">Destacados</h2>
+                <a href="#">
+                    <figure class="destacados__panel">
+                        <img src="/img/empezando-a-crear-logo.png" alt="Panel de la publicación sobre la creación del logotipo" class="destacados__panel-imagen">
+                        <figC class="destacados__panel-texto">Conozca las primeras etapas de la creación de un logotipo</figC>
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure class="destacados__panel">
+                        <img src="/img/sugestiones-fotografias.png" alt="Painel de la publicación sobre consejos de fotografía" class="destacados__panel-imagen">
+                        <figC class="destacados__panel-texto">¿Trabajas con fotografía? Conozca esos consejos</figC>
+                    </figure>
+                </a>
+                <a href="" class="destacados__boton boton">Recibir destacados por correo</a>
+            </section>
+
+<style> 
+    .destacados {
+    background-color: var(--background-azul-claro);
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.destacados__titulo {
+    color: var(--fuente-ceniza-oscuro);
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: var(--montserrat);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.destacados__panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.destacados__panel-imagen {
+    width: 100vw;
+    max-width: 600px;
+    box-shadow: 0 2px 10px 5px #00000020;
+    margin-bottom: .5rem;
+}
+
+.destacados__panel-texto {
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: normal;
+}
+
+.destacados__boton {
+    color: var(--boton-rojo);
+    border-color: var(--boton-rojo);
+    margin: 0 auto;
+}
+</style>

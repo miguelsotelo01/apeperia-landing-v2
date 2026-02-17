@@ -1,0 +1,85 @@
+---
+
+---
+
+<section class="sobre_nosotros container">
+                <div class="sobre_nosotros__contenido">
+                    <h2 class="sobre_nosotros__titulo">Sobre nosotros</h2>
+                    <p class="sobre_nosotros__texto">
+                        ¡Creamos aplicaciones personalizados para todas las personas!
+                    </p>
+                    <p class="sobre_nosotros__texto">
+                        La manutención de una aplicación no puede ser un custo extra para el cliente. 
+                        En Apeperia firmas nuestro servicio la manutención ya se incluye en el servicio. 
+                        De esa manera no te preocupes con la atualización, es por cuenta de nosotros.
+                    </p>
+                    <p class="sobre_nosotros__texto sobre-nosotros__texto--destacado sobre-nosotros__texto--division">
+                        ¡Tenemos un equipo especializado y exclusivo para proyectos increíbles!
+                    </p>
+                    <ul class="sobre_nosotros__plataformas">
+                        <li><img src="/img/android.png" alt="Ícono del Android"></li>
+                        <li><img src="/img/blackberry.png" alt="Ícono del Blackberry"></li>
+                        <li><img src="/img/apple.png" alt="Ícono de la Apple"></li>
+                        <li><img src="/img/windowsphone.png" alt="Ícono del Windows"></li>
+                    </ul>
+                    <p class="sobre_nosotros__texto">Desarrollamos aplicaciones para todas plataformas</p>
+                </div>
+                <img src="/img/sobre-apeperia.png" alt="Sobre Nosotros" class="sobre_nosotros__imagen">
+            </section>
+
+<style>
+    .sobre_nosotros {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.sobre_nosotros__titulo {
+    color: var(--fuente-ceniza-oscuro);
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: var(--montserrat);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
+
+.sobre_nosotros__texto {
+    line-height: normal;
+    margin-bottom: 1rem;
+}
+
+.sobre_nosotros__plataformas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+}
+
+.sobre-nosotros__texto--division {
+    color: var(--fuente-ceniza-oscuro);
+    font-weight: 700;
+}
+
+.sobre_nosotros__imagen {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .sobre_nosotros {
+        display: flex;
+    }
+    .sobre_nosotros__contenido {
+        margin-right: 3rem;
+    }
+    .sobre_nosotros__titulo {
+        text-align: left;
+    }
+    .sobre-nosotros__texto--division {
+        border-bottom: 1px solid var(--background-ceniza-medio);
+        padding-bottom: 1.5rem;
+    }
+    .sobre_nosotros__imagen {
+        display: block;
+    }
+}
+</style>

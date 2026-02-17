@@ -1,0 +1,30 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import LLamada from '../components/LLamada.astro';
+import Destacados from '../components/Destacados.astro';
+import Diferenciales from '../components/Diferenciales.astro';
+import Sobre from '../components/sobre.astro';
+import Planes from '../components/Planes.astro';
+import Contacto from '../components/Contacto.astro';
+import Institucional from '../components/Institucional.astro';
+import Footer from '../components/Footer.astro';
+// Luego importarás el resto:
+// import Llamada from '../components/Llamada.astro';
+// import Destacados from '../components/Destacados.astro';
+---
+
+<Layout title="Home | Apeperia">
+	<main>
+		<Header />
+        <LLamada />
+        <Destacados />
+        <Diferenciales />
+        <Sobre />
+        <Planes />
+        <Contacto />
+        <Institucional />
+        <Footer />
+        {/* Aquí irán el resto de los componentes */}
+        </main>
+</Layout>

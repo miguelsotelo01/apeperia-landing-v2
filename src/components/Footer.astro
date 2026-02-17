@@ -1,0 +1,73 @@
+---
+---
+
+<footer class="footer container">
+                <img src="/img/logo-apeperia.svg" alt="Logo de Apeperia" class="footer__logo">
+                <ul class="footer__social">
+                    <li><a href="#" class="footer__midia"><img src="/img/facebook.png" alt="Ícono de Facebook"></a></li>
+                    <li><a href="#" class="footer__midia"><img src="/img/instagram.png" alt="Ícono de Instagram"></a></li>
+                    <li><a href="#" class="footer__midia"><img src="/img/twitter.png" alt="Ícono de Twitter"></a></li>
+                </ul>
+                <nav>
+                    <ul class="footer__navegacion">
+                        <li class="footer__enlace"><a href="#">Sobre</a></li>
+                        <li class="footer__enlace"><a href="#">Planes</a></li>
+                        <li class="footer__enlace"><a href="#">Blog</a></li>
+                        <li class="footer__enlace"><a href="#">Destacados</a></li>
+                        <li class="footer__enlace"><a href="#">Institucional</a></li>
+                        <li class="footer__enlace"><a href="#">Contacto</a></li>
+                    </ul>
+                </nav>
+            </footer>
+
+<style>
+    .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: var(--background-footer);
+
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.footer__social {
+    display: flex;
+}
+
+.footer__midia {
+    display: block;
+
+    width: 42px;
+    height: 42px;
+
+    margin: 2rem 1rem;
+}
+
+.footer__navegacion {
+    color: var(--background-blanco);
+    font: var(--open-sans);
+    text-align: center;
+    line-height: 3;
+}
+
+
+.footer__enlace {
+    display: inline-block;
+
+    margin: 0 .5rem .7rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .footer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .footer__navegacion {
+        text-align: left;
+        min-width: 600px;
+    }
+}
+</style>
